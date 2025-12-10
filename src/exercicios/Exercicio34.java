@@ -10,7 +10,7 @@ public class Exercicio34 {
         System.out.println("Insira o seu peso em kg e a sua altura em m: ");
         Double peso = scan.nextDouble();
         Double altura = scan.nextDouble();
-w
+
         double imc = (peso/(altura*altura));
 
         boolean abaixo = imc < 18.5;
@@ -57,5 +57,6 @@ w
         } else {
             System.out.println("Valores inválidos");
         }
+        scan.close();
     }
 }

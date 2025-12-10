@@ -21,5 +21,6 @@ public class Exercicio16 {
         Double diasPerdidos = (minutosPerdidos/60)/24;
 
         System.out.printf("Você perdeu %.2f dias de vida", diasPerdidos);
+        scan.close();
     }
 }

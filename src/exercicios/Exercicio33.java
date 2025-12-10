@@ -34,5 +34,6 @@ public class Exercicio33 {
                     Valor máximo da Parcela: R$%.2f\s""", casa, salario, anos, porcentagem);
 
         }
+        scan.close();
     }
 }
