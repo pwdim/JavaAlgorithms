@@ -1,8 +1,5 @@
 package exercicios;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Exercicio46 {
     public static void main(String[] args) {
         int soma = 0;
